@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/drillslug",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Drill encode/decode helpers for slug payloads in pipelines.",
+  "bin": {
+    "drillslug": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/drillslug.git"
+  },
+  "homepage": "https://theworker02.github.io/drillslug/",
+  "keywords": [
+    "drill",
+    "slug",
+    "encode",
+    "cli",
+    "toolkit"
+  ]
+}
